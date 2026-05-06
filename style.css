@@ -80,7 +80,7 @@ em { font-style: italic; color: var(--rose-gold); }
 .hero-bg {
   position: absolute; inset: 0;
   background-size: cover;
-  background-position: center 30%;
+  background-position: center 15%;
   filter: brightness(0.55) saturate(1.05);
 }
 .hero-overlay {
