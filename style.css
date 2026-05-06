@@ -615,3 +615,32 @@ em { font-style: italic; color: var(--rose-gold); }
   .multi-card { padding: 26px 22px; }
   .badge-budget { font-size: 0.6rem; padding: 4px 8px; top: 12px; right: 12px; }
 }
+
+/* ==================== V363 SKYSCANNER EXCLUSIVE BUTTON ==================== */
+.btn-skyscanner {
+  display: inline-block;
+  width: 100%;
+  margin: 8px 0;
+  padding: 14px 20px;
+  background: linear-gradient(135deg, #0770e3 0%, #0a91ff 100%);
+  color: white !important;
+  text-align: center;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(7, 112, 227, 0.25);
+  transition: all 0.2s ease;
+  border: none;
+}
+.btn-skyscanner:hover {
+  background: linear-gradient(135deg, #0a91ff 0%, #0770e3 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(7, 112, 227, 0.35);
+}
+.btn-skyscanner:active {
+  transform: translateY(0);
+}
