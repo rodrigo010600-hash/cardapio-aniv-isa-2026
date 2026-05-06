@@ -366,3 +366,252 @@ em { font-style: italic; color: var(--rose-gold); }
 .dish:nth-child(2) { animation-delay: 0.1s; }
 .dish:nth-child(3) { animation-delay: 0.2s; }
 .dish:nth-child(4) { animation-delay: 0.3s; }
+
+/* ==================== V360 ULTRA ADITIONS ==================== */
+
+/* TIER BORDERS */
+.dish[data-tier="S"] { border-left: 3px solid var(--gold); }
+.dish[data-tier="A"] { border-left: 3px solid var(--rose-gold); }
+.dish[data-tier="B"] { border-left: 3px solid #a47864; }
+.dish[data-tier="C"] { border-left: 3px solid #999; opacity: 0.95; }
+.dish[data-tier="D"] { border-left: 3px solid #aaa; opacity: 0.88; }
+
+/* BUDGET BADGE (fura orçamento) */
+.badge-budget {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  padding: 6px 12px;
+  background: rgba(178, 34, 34, 0.95);
+  color: var(--cream);
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border-radius: 2px;
+  backdrop-filter: blur(8px);
+}
+
+/* ROTEIRO COLLAPSIBLE */
+.roteiro {
+  margin: 16px 0 24px;
+  padding: 14px 18px;
+  background: rgba(247, 231, 206, 0.4);
+  border-radius: 4px;
+  border: 1px solid rgba(212, 175, 55, 0.2);
+}
+.roteiro summary {
+  cursor: pointer;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  color: var(--deep-rose);
+  letter-spacing: 0.04em;
+  user-select: none;
+  list-style: none;
+}
+.roteiro summary::-webkit-details-marker { display: none; }
+.roteiro summary::before {
+  content: '▸ ';
+  display: inline-block;
+  transition: transform 0.2s;
+  margin-right: 4px;
+}
+.roteiro[open] summary::before {
+  transform: rotate(90deg);
+}
+.roteiro[open] summary {
+  margin-bottom: 12px;
+  border-bottom: 1px dotted rgba(212, 175, 55, 0.4);
+  padding-bottom: 10px;
+}
+.roteiro-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.875rem;
+  line-height: 1.85;
+  color: var(--warm-grey);
+}
+.roteiro-list li {
+  padding: 4px 0 4px 4px;
+  border-left: 2px solid transparent;
+  margin-left: 4px;
+}
+.roteiro-list li.aniv,
+.welove-roteiro tr.aniv {
+  background: rgba(212, 175, 55, 0.15);
+  border-left: 2px solid var(--gold);
+  padding-left: 12px;
+  font-weight: 500;
+}
+
+/* ARUBA SPECIAL @WeLove */
+.aruba-special .welove-quote {
+  background: linear-gradient(135deg, rgba(247,231,206,0.6), rgba(255,253,208,0.4));
+  padding: 22px 26px;
+  border-radius: 6px;
+  border-left: 3px solid var(--rose-gold);
+  margin: 16px 0;
+}
+.welove-tag {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--rose-gold);
+  margin-bottom: 10px;
+}
+.aruba-special blockquote {
+  font-family: 'Noto Serif', serif;
+  font-style: italic;
+  font-size: 0.95rem;
+  line-height: 1.75;
+  color: var(--charcoal);
+  margin: 0;
+}
+.welove-tips {
+  margin-top: 20px;
+  padding: 16px 22px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+}
+.welove-tips h4,
+.welove-roteiro h4 {
+  font-family: 'Noto Serif', serif;
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+  color: var(--deep-rose);
+}
+.welove-tips ol {
+  margin: 8px 0 0 24px;
+  padding: 0;
+}
+.welove-tips ol li {
+  padding: 6px 0;
+  font-size: 0.92rem;
+  color: var(--warm-grey);
+  line-height: 1.55;
+}
+.welove-roteiro {
+  margin-top: 20px;
+  padding: 16px 22px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+}
+.welove-roteiro table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 8px;
+  font-size: 0.85rem;
+}
+.welove-roteiro th, .welove-roteiro td {
+  padding: 9px 12px;
+  border-bottom: 1px dotted rgba(0,0,0,0.08);
+  text-align: left;
+  vertical-align: top;
+}
+.welove-roteiro th {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--rose-gold);
+  border-bottom: 1px solid var(--rose-gold);
+}
+.welove-roteiro td:first-child {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 500;
+  white-space: nowrap;
+  color: var(--charcoal);
+}
+
+/* MULTI-CITY SECTION */
+.multi-city {
+  padding: 96px 0;
+  background: linear-gradient(180deg, var(--champagne) 0%, var(--cream) 100%);
+}
+.multi-city .display {
+  margin: 16px 0 12px;
+}
+.multi-city .lead.center {
+  margin-bottom: 56px;
+}
+.multi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 32px;
+  margin-top: 16px;
+}
+.multi-card {
+  background: var(--soft-white);
+  padding: 36px 32px;
+  border-radius: 8px;
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  box-shadow: 0 4px 24px var(--shadow-rose);
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+}
+.multi-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 36px rgba(183, 110, 121, 0.2);
+}
+.multi-card.recommended {
+  border: 1px solid var(--gold);
+  box-shadow: 0 8px 32px rgba(212, 175, 55, 0.18);
+}
+.multi-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 12px;
+  color: var(--charcoal);
+  line-height: 1.3;
+}
+.multi-route {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: var(--rose-gold);
+  letter-spacing: 0.06em;
+  margin-bottom: 8px;
+}
+.multi-price {
+  font-family: 'Noto Serif', serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--deep-rose);
+  margin-bottom: 14px;
+}
+.multi-desc {
+  font-size: 0.92rem;
+  color: var(--warm-grey);
+  line-height: 1.65;
+  margin-bottom: 24px;
+  flex-grow: 1;
+}
+.multi-card .btn-primary {
+  margin-top: auto;
+  align-self: flex-start;
+}
+
+/* URL FALLBACK BADGE */
+.url-fallback {
+  background: rgba(255, 200, 0, 0.15);
+  padding: 4px 8px;
+  border-radius: 3px;
+  font-size: 0.85rem;
+  color: var(--charcoal) !important;
+}
+
+/* MOBILE responsive */
+@media (max-width: 768px) {
+  .multi-grid { grid-template-columns: 1fr; gap: 20px; }
+  .welove-roteiro table { font-size: 0.72rem; }
+  .welove-roteiro th, .welove-roteiro td { padding: 6px 6px; }
+  .welove-quote { padding: 16px 18px; }
+  .multi-card { padding: 26px 22px; }
+  .badge-budget { font-size: 0.6rem; padding: 4px 8px; top: 12px; right: 12px; }
+}
