@@ -1,0 +1,140 @@
+{
+  "destinos": {
+    "AUA": {
+      "fonte": "Chrome MCP 22:21 BRT",
+      "site_v374": 3435,
+      "sky_mais_barato_casal": 5293,
+      "sky_recomendado_casal": 6119
+    },
+    "CUN": {
+      "fonte": "Chrome MCP 22:21 BRT",
+      "site_v374": 3486,
+      "sky_mais_barato_casal": 4984,
+      "sky_recomendado_casal": 5594
+    },
+    "CUR": {
+      "cidade": "Willemstad",
+      "fonte": "Chrome MCP 23:09 BRT batch2",
+      "sky_mais_barato_casal": 8164,
+      "sky_rapido_casal": 11138,
+      "sky_recomendado_casal": 9200
+    },
+    "GDL": {
+      "cidade": "Guadalajara",
+      "fonte": "Chrome MCP 23:01 BRT batch1",
+      "sky_mais_barato_casal": 7324,
+      "sky_rapido_casal": 11462,
+      "sky_recomendado_casal": 9478
+    },
+    "GUA": {
+      "fonte": "Chrome MCP 22:21 BRT",
+      "site_v374": 2778,
+      "sky_mais_barato_casal": 7944,
+      "sky_recomendado_casal": 10435
+    },
+    "MBJ": {
+      "fonte": "Chrome MCP 22:21 BRT",
+      "site_v374": 3743,
+      "sky_mais_barato_casal": 5876,
+      "sky_recomendado_casal": 8275
+    },
+    "MEX": {
+      "cidade": "Cidade do M\u00e9xico",
+      "fonte": "Chrome MCP 23:01 BRT batch1",
+      "sky_mais_barato_casal": 5390,
+      "sky_rapido_casal": 13002,
+      "sky_recomendado_casal": 6320
+    },
+    "MID": {
+      "cidade": "M\u00e9rida",
+      "fonte": "Chrome MCP 23:09 BRT batch2",
+      "sky_mais_barato_casal": 7128,
+      "sky_rapido_casal": 10698,
+      "sky_recomendado_casal": 8876
+    },
+    "MTY": {
+      "cidade": "Monterrei",
+      "fonte": "Chrome MCP 23:09 BRT batch2",
+      "sky_mais_barato_casal": 5842,
+      "sky_rapido_casal": 12796,
+      "sky_recomendado_casal": 9268
+    },
+    "NAS": {
+      "cidade": "Nassau",
+      "fonte": "Chrome MCP 23:09 BRT batch2",
+      "sky_mais_barato_casal": 8102,
+      "sky_rapido_casal": 19048,
+      "sky_recomendado_casal": 9186
+    },
+    "PTY": {
+      "fonte": "Chrome MCP 22:21 BRT",
+      "site_v374": 6215,
+      "sky_mais_barato_casal": 5739,
+      "sky_recomendado_casal": 5739
+    },
+    "PUJ": {
+      "fonte": "Chrome MCP 22:21 BRT",
+      "site_v374": 3745,
+      "sky_mais_barato_casal": 5398,
+      "sky_recomendado_casal": 6558
+    },
+    "SDQ": {
+      "cidade": "Santo Domingo",
+      "fonte": "Chrome MCP 23:01 BRT batch1",
+      "sky_mais_barato_casal": 5458,
+      "sky_rapido_casal": 8494,
+      "sky_recomendado_casal": 6910
+    },
+    "SJO": {
+      "fonte": "Chrome MCP 22:21 BRT",
+      "site_v374": 4119,
+      "sky_mais_barato_casal": 5137,
+      "sky_recomendado_casal": 6040
+    },
+    "SJU": {
+      "fonte": "Chrome MCP 22:21 BRT",
+      "site_v374": 3158,
+      "sky_mais_barato_casal": 5094,
+      "sky_recomendado_casal": 5564
+    },
+    "STT": {
+      "fonte": "Chrome MCP 22:21 BRT",
+      "site_v374": 1531,
+      "sky_mais_barato_casal": 9900,
+      "sky_recomendado_casal": 10902
+    },
+    "SXM": {
+      "cidade": "Philipsburg",
+      "fonte": "Chrome MCP 23:09 BRT batch2",
+      "sky_mais_barato_casal": 9528,
+      "sky_rapido_casal": 24626,
+      "sky_recomendado_casal": 14604
+    },
+    "YOW": {
+      "cidade": "Ottawa",
+      "fonte": "Chrome MCP 23:01 BRT batch1",
+      "sky_mais_barato_casal": 5130,
+      "sky_rapido_casal": 6758,
+      "sky_recomendado_casal": 5130
+    },
+    "YYZ": {
+      "cidade": "Toronto",
+      "fonte": "Chrome MCP 23:01 BRT batch1",
+      "sky_mais_barato_casal": 5360,
+      "sky_rapido_casal": 9056,
+      "sky_recomendado_casal": 7940
+    }
+  },
+  "extracted_at_session": "2026-05-08 23:10 BRT",
+  "faltam": [
+    "GCM",
+    "POP",
+    "KIN",
+    "ANU",
+    "BGI",
+    "SAL"
+  ],
+  "method": "Chrome MCP browser_batch get_page_text",
+  "total_destinos": 25,
+  "total_validated": 19
+}
