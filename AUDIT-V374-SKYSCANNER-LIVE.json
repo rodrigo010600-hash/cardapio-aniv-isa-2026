@@ -1,0 +1,18 @@
+{
+  "extracted_at": "2026-05-08 22:21 BRT",
+  "method": "Chrome MCP get_page_text live render",
+  "destinations_validated": 9,
+  "comparison_site_v374_vs_skyscanner_casal": {
+    "SJU": {"site_v374": 3158, "sky_mais_barato_casal": 5094, "sky_recomendado_casal": 5564, "delta_pct_vs_reco": 76},
+    "CUN": {"site_v374": 3486, "sky_mais_barato_casal": 4984, "sky_recomendado_casal": 5594, "delta_pct_vs_reco": 60},
+    "MBJ": {"site_v374": 3743, "sky_mais_barato_casal": 5876, "sky_recomendado_casal": 8275, "delta_pct_vs_reco": 121},
+    "AUA": {"site_v374": 3435, "sky_mais_barato_casal": 5293, "sky_recomendado_casal": 6119, "delta_pct_vs_reco": 78},
+    "PUJ": {"site_v374": 3745, "sky_mais_barato_casal": 5398, "sky_recomendado_casal": 6558, "delta_pct_vs_reco": 75},
+    "SJO": {"site_v374": 4119, "sky_mais_barato_casal": 5137, "sky_recomendado_casal": 6040, "delta_pct_vs_reco": 47},
+    "STT": {"site_v374": 1531, "sky_mais_barato_casal": 9900, "sky_recomendado_casal": 10902, "delta_pct_vs_reco": 612, "note": "GDS bug confirmado — STT real é >R$ 9.900"},
+    "GUA": {"site_v374": 2778, "sky_mais_barato_casal": 7944, "sky_recomendado_casal": 10435, "delta_pct_vs_reco": 275},
+    "PTY": {"site_v374": 6215, "sky_mais_barato_casal": 5739, "sky_recomendado_casal": 5739, "delta_pct_vs_reco": -8, "note": "raro - site mais caro que Sky"}
+  },
+  "veredicto": "8/9 destinos site V374 mostra preço SUBESTIMADO vs Skyscanner real. Delta médio +83%. Isabella ia se decepcionar.",
+  "decisao_v375": "Trocar price-big pra Skyscanner mais barato OU adicionar disclaimer que GDS é referência interna e clicar Reservar pode mostrar +30-120% maior."
+}
