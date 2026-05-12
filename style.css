@@ -644,3 +644,49 @@ em { font-style: italic; color: var(--rose-gold); }
 .btn-skyscanner:active {
   transform: translateY(0);
 }
+
+
+/* V376 — 3 botões mini reais por card */
+.btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+.btn-mini {
+  flex: 1 1 calc(33.333% - 8px);
+  min-width: 180px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  transition: transform .15s ease, box-shadow .15s ease;
+  border: 1px solid transparent;
+}
+.btn-mini:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,.12);
+}
+.btn-mini.btn-sky {
+  background: #0770e3;
+  color: #fff;
+  border-color: #0770e3;
+}
+.btn-mini.btn-gf {
+  background: #34a853;
+  color: #fff;
+  border-color: #34a853;
+}
+.btn-mini.btn-kiwi {
+  background: #e91e63;
+  color: #fff;
+  border-color: #e91e63;
+}
+@media (max-width: 640px) {
+  .btn-mini {
+    flex: 1 1 100%;
+    min-width: 0;
+  }
+}
