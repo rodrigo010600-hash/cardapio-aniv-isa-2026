@@ -690,3 +690,37 @@ em { font-style: italic; color: var(--rose-gold); }
     min-width: 0;
   }
 }
+
+
+/* V380 — 6 botões reais (3 ida + 3 volta) */
+.btn-group-v380 {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.btn-leg-title {
+  margin: 8px 0 4px 0;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--rose, #c0626a);
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.btn-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.btn-row .btn-mini {
+  flex: 1 1 calc(33.333% - 6px);
+  min-width: 140px;
+  font-size: 12px;
+  padding: 8px 10px;
+}
+@media (max-width: 640px) {
+  .btn-row .btn-mini {
+    flex: 1 1 100%;
+  }
+}
